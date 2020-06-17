@@ -17,6 +17,8 @@ Project\
 Project\ Logs
 Project Outputs for*
 Project\ Outputs
+forum/
+AltiumPCB/Fabrication_output/
 
 #History
 History
@@ -34,3 +36,4 @@ scripts/__pycache__/
 # LTSpice
 *.raw
 *.log
+
