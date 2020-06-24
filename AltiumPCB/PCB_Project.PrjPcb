@@ -38,16 +38,16 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=CSP_simulation.SchDoc
+DocumentPath=CSP_sim_without_res.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=0
+AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
+ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
@@ -55,6 +55,23 @@ GenerateClassCluster=0
 DocumentUniqueId=EWDMPQUM
 
 [Document2]
+DocumentPath=CSP_sim_with_res.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=AZHXSHOK
+
+[Document3]
 DocumentPath=CSP_without_inFET.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -71,7 +88,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PYIGRXOS
 
-[Document3]
+[Document4]
 DocumentPath=CSP_inFET.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -87,23 +104,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PXXGOFDN
-
-[Document4]
-DocumentPath=CSP_res_simulation.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=2
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=AZHXSHOK
 
 [Document5]
 DocumentPath=CSP_without_inFET.PcbDoc
@@ -208,7 +208,7 @@ GenerateClassCluster=0
 DocumentUniqueId=IYGPFABN
 
 [Document11]
-DocumentPath=PCB_Project.OutJob
+DocumentPath=Panel.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -222,162 +222,406 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=MCQCLDBP
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for PCB_Project\v1.1\Bill of Materials-CSP.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.DRR
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP_without_inFET\Bill of Materials-CSP_without_inFET.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.EXTREP
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.GBL
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.GBO
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.GBP
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.GBS
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.GD1
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.GG1
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.GKO
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.GG1
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.GM1
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.GKO
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.GPB
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.GPT
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.GPB
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.GTL
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.GPT
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.GTO
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.GTP
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.GTS
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.LDP
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument19]
-DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.REP
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument20]
-DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.RUL
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.REP
 DItemRevisionGUID=
 
 [GeneratedDocument21]
-DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.TXT
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.RUL
 DItemRevisionGUID=
 
 [GeneratedDocument22]
-DocumentPath=Project Outputs for PCB_Project\PCB1.EXTREP
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument23]
-DocumentPath=Project Outputs for PCB_Project\PCB1.GBL
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP_without_inFET\CSP_without_inFET.csv
 DItemRevisionGUID=
 
 [GeneratedDocument24]
-DocumentPath=Project Outputs for PCB_Project\PCB1.GBO
+DocumentPath=Project Outputs for PCB_Project\v1.1_CSP_without_inFET\CSP_without_inFET.csv
 DItemRevisionGUID=
 
 [GeneratedDocument25]
-DocumentPath=Project Outputs for PCB_Project\PCB1.GBP
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP_without_inFET\CSP_without_inFET.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument26]
-DocumentPath=Project Outputs for PCB_Project\PCB1.GBS
+DocumentPath=Project Outputs for PCB_Project\v1.1_CSP_without_inFET\CSP_without_inFET.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument27]
-DocumentPath=Project Outputs for PCB_Project\PCB1.GD1
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP_without_inFET\CSP_without_inFET.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument28]
-DocumentPath=Project Outputs for PCB_Project\PCB1.GG1
+DocumentPath=Project Outputs for PCB_Project\v1.1_CSP_without_inFET\CSP_without_inFET.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument29]
-DocumentPath=Project Outputs for PCB_Project\PCB1.GKO
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP_without_inFET\CSP_without_inFET.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument30]
-DocumentPath=Project Outputs for PCB_Project\PCB1.GM1
+DocumentPath=Project Outputs for PCB_Project\v1.1_CSP_without_inFET\CSP_without_inFET.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument31]
-DocumentPath=Project Outputs for PCB_Project\PCB1.GPB
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP_without_inFET\CSP_without_inFET.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument32]
-DocumentPath=Project Outputs for PCB_Project\PCB1.GPT
+DocumentPath=Project Outputs for PCB_Project\v1.1_CSP_without_inFET\CSP_without_inFET.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument33]
-DocumentPath=Project Outputs for PCB_Project\PCB1.GTL
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP_without_inFET\CSP_without_inFET.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument34]
-DocumentPath=Project Outputs for PCB_Project\PCB1.GTO
+DocumentPath=Project Outputs for PCB_Project\v1.1_CSP_without_inFET\CSP_without_inFET.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument35]
-DocumentPath=Project Outputs for PCB_Project\PCB1.GTP
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP_without_inFET\CSP_without_inFET.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument36]
-DocumentPath=Project Outputs for PCB_Project\PCB1.GTS
+DocumentPath=Project Outputs for PCB_Project\v1.1_CSP_without_inFET\CSP_without_inFET.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument37]
-DocumentPath=Project Outputs for PCB_Project\PCB1.REP
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP_without_inFET\CSP_without_inFET.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument38]
-DocumentPath=Project Outputs for PCB_Project\PCB1.RUL
+DocumentPath=Project Outputs for PCB_Project\v1.1_CSP_without_inFET\CSP_without_inFET.GD1
 DItemRevisionGUID=
 
 [GeneratedDocument39]
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP_without_inFET\CSP_without_inFET.GG1
+DItemRevisionGUID=
+
+[GeneratedDocument40]
+DocumentPath=Project Outputs for PCB_Project\v1.1_CSP_without_inFET\CSP_without_inFET.GG1
+DItemRevisionGUID=
+
+[GeneratedDocument41]
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP_without_inFET\CSP_without_inFET.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument42]
+DocumentPath=Project Outputs for PCB_Project\v1.1_CSP_without_inFET\CSP_without_inFET.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument43]
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP_without_inFET\CSP_without_inFET.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument44]
+DocumentPath=Project Outputs for PCB_Project\v1.1_CSP_without_inFET\CSP_without_inFET.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument45]
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP_without_inFET\CSP_without_inFET.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument46]
+DocumentPath=Project Outputs for PCB_Project\v1.1_CSP_without_inFET\CSP_without_inFET.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument47]
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP_without_inFET\CSP_without_inFET.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument48]
+DocumentPath=Project Outputs for PCB_Project\v1.1_CSP_without_inFET\CSP_without_inFET.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument49]
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP_without_inFET\CSP_without_inFET.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument50]
+DocumentPath=Project Outputs for PCB_Project\v1.1_CSP_without_inFET\CSP_without_inFET.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument51]
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP_without_inFET\CSP_without_inFET.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument52]
+DocumentPath=Project Outputs for PCB_Project\v1.1_CSP_without_inFET\CSP_without_inFET.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument53]
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP_without_inFET\CSP_without_inFET.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument54]
+DocumentPath=Project Outputs for PCB_Project\v1.1_CSP_without_inFET\CSP_without_inFET.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument55]
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP_without_inFET\CSP_without_inFET.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument56]
+DocumentPath=Project Outputs for PCB_Project\v1.1_CSP_without_inFET\CSP_without_inFET.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument57]
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP_without_inFET\CSP_without_inFET.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument58]
+DocumentPath=Project Outputs for PCB_Project\v1.1_CSP_without_inFET\CSP_without_inFET.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument59]
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP_without_inFET\CSP_without_inFET.REP
+DItemRevisionGUID=
+
+[GeneratedDocument60]
+DocumentPath=Project Outputs for PCB_Project\v1.1_CSP_without_inFET\CSP_without_inFET.REP
+DItemRevisionGUID=
+
+[GeneratedDocument61]
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP_without_inFET\CSP_without_inFET.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument62]
+DocumentPath=Project Outputs for PCB_Project\v1.1_CSP_without_inFET\CSP_without_inFET.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument63]
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP_without_inFET\CSP_without_inFET.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument64]
+DocumentPath=Project Outputs for PCB_Project\v1.1_CSP_without_inFET\CSP_without_inFET.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument65]
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP_without_inFET\CSP_without_inFET.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument66]
+DocumentPath=Project Outputs for PCB_Project\v1.1_CSP_without_inFET\CSP_without_inFET.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument67]
+DocumentPath=Project Outputs for PCB_Project\NC Drill\Panel.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument68]
+DocumentPath=Project Outputs for PCB_Project\v1.1\PCBinFET_DetectorPCB_panelization\Panel.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument69]
+DocumentPath=Project Outputs for PCB_Project\v1.1_PCBinFET_DetectorPCB_panelization\Panel.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument70]
+DocumentPath=Project Outputs for PCB_Project\Gerber\Panel.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument71]
+DocumentPath=Project Outputs for PCB_Project\v1.1\PCBinFET_DetectorPCB_panelization\Panel.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument72]
+DocumentPath=Project Outputs for PCB_Project\v1.1_PCBinFET_DetectorPCB_panelization\Panel.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument73]
+DocumentPath=Project Outputs for PCB_Project\NC Drill\Panel.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument74]
+DocumentPath=Project Outputs for PCB_Project\v1.1\PCBinFET_DetectorPCB_panelization\Panel.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument75]
+DocumentPath=Project Outputs for PCB_Project\v1.1_PCBinFET_DetectorPCB_panelization\Panel.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument76]
+DocumentPath=Project Outputs for PCB_Project\Gerber\Panel.REP
+DItemRevisionGUID=
+
+[GeneratedDocument77]
+DocumentPath=Project Outputs for PCB_Project\v1.1\PCBinFET_DetectorPCB_panelization\Panel.REP
+DItemRevisionGUID=
+
+[GeneratedDocument78]
+DocumentPath=Project Outputs for PCB_Project\v1.1_PCBinFET_DetectorPCB_panelization\Panel.REP
+DItemRevisionGUID=
+
+[GeneratedDocument79]
+DocumentPath=Project Outputs for PCB_Project\Gerber\Panel.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument80]
+DocumentPath=Project Outputs for PCB_Project\v1.1\PCBinFET_DetectorPCB_panelization\Panel.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument81]
+DocumentPath=Project Outputs for PCB_Project\v1.1_PCBinFET_DetectorPCB_panelization\Panel.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument82]
+DocumentPath=Project Outputs for PCB_Project\PCB1.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument83]
+DocumentPath=Project Outputs for PCB_Project\PCB1.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument84]
+DocumentPath=Project Outputs for PCB_Project\PCB1.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument85]
+DocumentPath=Project Outputs for PCB_Project\PCB1.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument86]
+DocumentPath=Project Outputs for PCB_Project\PCB1.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument87]
+DocumentPath=Project Outputs for PCB_Project\PCB1.GD1
+DItemRevisionGUID=
+
+[GeneratedDocument88]
+DocumentPath=Project Outputs for PCB_Project\PCB1.GG1
+DItemRevisionGUID=
+
+[GeneratedDocument89]
+DocumentPath=Project Outputs for PCB_Project\PCB1.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument90]
+DocumentPath=Project Outputs for PCB_Project\PCB1.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument91]
+DocumentPath=Project Outputs for PCB_Project\PCB1.GPB
+DItemRevisionGUID=
+
+[GeneratedDocument92]
+DocumentPath=Project Outputs for PCB_Project\PCB1.GPT
+DItemRevisionGUID=
+
+[GeneratedDocument93]
+DocumentPath=Project Outputs for PCB_Project\PCB1.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument94]
+DocumentPath=Project Outputs for PCB_Project\PCB1.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument95]
+DocumentPath=Project Outputs for PCB_Project\PCB1.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument96]
+DocumentPath=Project Outputs for PCB_Project\PCB1.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument97]
+DocumentPath=Project Outputs for PCB_Project\PCB1.REP
+DItemRevisionGUID=
+
+[GeneratedDocument98]
+DocumentPath=Project Outputs for PCB_Project\PCB1.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument99]
 DocumentPath=Project Outputs for PCB_Project\v1.1\Pick Place for CSP.csv
+DItemRevisionGUID=
+
+[GeneratedDocument100]
+DocumentPath=Project Outputs for PCB_Project\v1.1\CSP_without_inFET\Pick Place for CSP_without_inFET.csv
 DItemRevisionGUID=
 
 [Configuration1]
@@ -1696,9 +1940,9 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=CSP_library.IntLib
-ComponentDesignItemID0=capacitor
-ComponentSymbolReference0=capacitor
+ComponentLibraryIdentifier0=Miscellaneous Devices.IntLib
+ComponentDesignItemID0=Diode
+ComponentSymbolReference0=Diode
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1714,33 +1958,45 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Comment
+ParameterName0=Code_JEDEC
 ParameterUpdate0=1
-ParameterName1=Component Kind
+ParameterName1=Comment
 ParameterUpdate1=1
-ParameterName2=Description
+ParameterName2=Component Kind
 ParameterUpdate2=1
-ParameterName3=Library Reference
+ParameterName3=Description
 ParameterUpdate3=1
-ParameterName4=Value
+ParameterName4=LatestRevisionDate
 ParameterUpdate4=1
+ParameterName5=LatestRevisionNote
+ParameterUpdate5=1
+ParameterName6=Library Reference
+ParameterUpdate6=1
+ParameterName7=PackageDescription
+ParameterUpdate7=1
+ParameterName8=PackageReference
+ParameterUpdate8=1
+ParameterName9=PackageVersion
+ParameterUpdate9=1
+ParameterName10=Published
+ParameterUpdate10=1
+ParameterName11=Publisher
+ParameterUpdate11=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=CAPC160X80X90L35N
+ModelName0=SMC
 ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=CAPC3216X15L_1206_S
+ModelTypeGroup1=SI
+ModelTypeUpdate1=1
+ModelType1=SI
+ModelName1=Diode
 ModelUpdate1=1
-ModelType2=PCBLIB
-ModelName2=CAPC3225X15L
+ModelTypeGroup2=SIM
+ModelTypeUpdate2=1
+ModelType2=SIM
+ModelName2=DIODE
 ModelUpdate2=1
-ModelType3=PCBLIB
-ModelName3=CAPC450X320X110L60N
-ModelUpdate3=1
-ModelType4=PCBLIB
-ModelName4=SMD-0805-C
-ModelUpdate4=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
