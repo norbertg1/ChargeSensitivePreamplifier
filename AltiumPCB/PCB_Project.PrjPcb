@@ -224,116 +224,11 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MCQCLDBP
 
-[Document12]
-DocumentPath=Panel - Copy.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=MCQCLDBP
-
 [GeneratedDocument1]
 DocumentPath=Project Outputs for PCB_Project\v1.1\CSP_without_inFET\Bill of Materials-CSP_without_inFET.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=Project Outputs for PCB_Project\v1.1\PCBinFET_DetectorPCB_panelization\Panel.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for PCB_Project\v1.1\PCBinFET_DetectorPCB_panelization\Panel.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for PCB_Project\v1.1\PCBinFET_DetectorPCB_panelization\Panel.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for PCB_Project\v1.1\PCBinFET_DetectorPCB_panelization\Panel.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for PCB_Project\v1.1\PCBinFET_DetectorPCB_panelization\Panel.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for PCB_Project\v1.1\PCBinFET_DetectorPCB_panelization\Panel.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for PCB_Project\v1.1\PCBinFET_DetectorPCB_panelization\Panel.GD1
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for PCB_Project\v1.1\PCBinFET_DetectorPCB_panelization\Panel.GG1
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for PCB_Project\v1.1\PCBinFET_DetectorPCB_panelization\Panel.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for PCB_Project\v1.1\PCBinFET_DetectorPCB_panelization\Panel.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for PCB_Project\v1.1\PCBinFET_DetectorPCB_panelization\Panel.GM2
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for PCB_Project\v1.1\PCBinFET_DetectorPCB_panelization\Panel.GM3
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for PCB_Project\v1.1\PCBinFET_DetectorPCB_panelization\Panel.GPB
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for PCB_Project\v1.1\PCBinFET_DetectorPCB_panelization\Panel.GPT
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for PCB_Project\v1.1\PCBinFET_DetectorPCB_panelization\Panel.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for PCB_Project\v1.1\PCBinFET_DetectorPCB_panelization\Panel.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for PCB_Project\v1.1\PCBinFET_DetectorPCB_panelization\Panel.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for PCB_Project\v1.1\PCBinFET_DetectorPCB_panelization\Panel.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for PCB_Project\v1.1\PCBinFET_DetectorPCB_panelization\Panel.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for PCB_Project\v1.1\PCBinFET_DetectorPCB_panelization\Panel.REP
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for PCB_Project\v1.1\PCBinFET_DetectorPCB_panelization\Panel.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Project Outputs for PCB_Project\v1.1\PCBinFET_DetectorPCB_panelization\Panel.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument24]
 DocumentPath=Project Outputs for PCB_Project\v1.1\CSP_without_inFET\Pick Place for CSP_without_inFET.csv
 DItemRevisionGUID=
 
